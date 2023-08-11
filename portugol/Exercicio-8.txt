@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    real dinheiro, dolar, ds
+
+    escreva("Me diga qunato em dolar você tem ")
+    leia(dinheiro)
+    escreva("Me diga a cotação do dolar ")
+    leia(dolar)
+
+    ds = 6.50 * 6.800
+
+    escreva("Dolares disponível", ds)
+
+
+
+
+    
+  }
+}

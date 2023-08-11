@@ -1,0 +1,46 @@
+programa {
+  funcao inicio() {
+    real a , b , c , delta, raizZERO, raizPositiva, raizNegativa, mult = 0, deltaq = 0
+
+    escreva("Informe o valor de a: ")
+    leia(a)
+
+    se (a != 0){
+      escreva("Informe o valor de b: ")
+      leia(b)
+      escreva("Informe o valor de c: ")
+      leia(c)
+      
+      // b ao quadrado - 4 ac formula que calcula o delta
+      delta = (b * b)- 4 * a * c
+
+      se (delta < 0){
+      escreva("Delta negativo, a equação não possui raízes reais.")
+      
+
+      }
+      senao {
+          se (delta == 0) {
+            raizZERO = (-1 * b)/2 * a
+            escreva("Seu delta é igual a zero e possui apenas uma raiz: ", raizZERO)
+        }
+        senao se (delta > 0) {
+          para(inteiro i = 1; mult < delta; i++){
+            mult = i * i
+            deltaq = i
+        }
+        raizPositiva = ((-1 * b)+ deltaq / (2*a))
+        raizNegativa = ((-1 * b)- deltaq / (2*a))
+
+        escreva("Raiz positiva: ",raizPositiva, "n/")
+        }
+
+      }
+    }
+    senao 
+    {
+      escreva("'A' não pode ser zero. ")
+    }
+    
+  }
+}

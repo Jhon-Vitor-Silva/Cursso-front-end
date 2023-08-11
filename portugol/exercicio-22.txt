@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    inteiro numero
+    escreva("Digite seu numero: ")
+    leia(numero)
+
+    se(numero % 5 == 0){
+      escreva("O número é multiplo de 5")
+    }
+
+    senao escreva("Escreva não é multiplo de 5")
+    }
+    
+  }
+}

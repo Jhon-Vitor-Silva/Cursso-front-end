@@ -1,0 +1,18 @@
+programa {
+  inclua biblioteca Matematica --> mat
+
+
+  funcao inicio() {
+    inteiro numero1, numero2
+    real resultado = 0
+
+    escreva("Infome um numero1: ")
+    leia(numero1)
+    escreva("Infome um numero2: ")
+    leia(numero2)
+    
+    resultado = mat.raiz(numero, 2)
+
+    escreva(resultado)
+  }
+}

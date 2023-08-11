@@ -1,0 +1,27 @@
+programa {
+  funcao inicio() {
+    inteiro numer1, numer2, numer3
+    escreva("Informe o primeiro numero: ")
+    leia(numer1)
+    escreva("Informe o segundo numero: ")
+    leia(numer2)
+    escreva("Informe o terceiro numero: ")
+    leia(numer3)
+
+    se (numer1 > numer2 e numer1 > numer3){
+    escreva("Este numero é maior que: ", numer1)
+    }
+
+    senao se (numer2 > numer1 e numer2 > numer3){
+      escreva("Este numero é maior que: ", numer2)
+      }
+
+      senao se (numer3 > numer1 e numer3 > numer2){
+        escreva("Este numero é maior que: ", numer3)
+    }
+    senao{
+      escreva("Numero invalido")
+    }
+    
+  }
+}

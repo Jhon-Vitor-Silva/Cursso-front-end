@@ -1,0 +1,27 @@
+programa {
+
+  funcao inicio() {
+    cadeia nome
+    real media, nota1,  nota2, nota3, decimal
+
+    escreva("Digite seu nome: ")
+    leia(nome)
+    
+    escreva("Digite nota1 ")
+    leia(nota1)
+
+    escreva("Digite nota2 ")
+    leia(nota2)
+
+    escreva("Digite nota3 ")
+    leia(nota3)
+
+    media = (nota1 + nota2 + nota3)/3
+)
+
+    escreva("/n", nome, " sua média aritimética é: ", media)
+
+
+
+  }
+}

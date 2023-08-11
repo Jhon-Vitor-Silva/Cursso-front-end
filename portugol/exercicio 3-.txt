@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    inteiro quilometro, litro
+    real consumo
+
+    escreva("quilometro ")
+    leia(quilometro)
+    escreva("litros ")
+    leia(litro)
+
+    consumo = quilometro/litro
+
+    escreva("Seu consumo é de : ", consumo, "quilometro")
+  }
+}

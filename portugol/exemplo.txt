@@ -1,0 +1,33 @@
+programa {
+  inclua biblioteca Matematica --> mat
+  
+  funcao soma (inteiro n1 , inteiro n2){
+    retorne (n1 + n2)
+  }
+  funcao porcentagem (inteiro n1 , inteiro n2){
+  retorne (n1 / 100 * n2)
+  }
+  funcao mult (inteiro n1 , inteiro n2){
+    retorne (n1 * n2)
+  }
+  funcao sub (inteiro n1 , inteiro n2){
+    retorne ( n1 - n2)
+  }
+  funcao 
+
+  funcao inicio() {
+    inteiro numero1, numero2
+    real resultado = 0, raiz, numero
+
+    escreva("Infome um numero1: ")
+    leia(numero1)
+    escreva("Infome o segundo numero: ")
+    leia(numero2)
+  
+    
+    resultado = mat.raiz(numero, 2)
+
+    escreva(resultado)
+    
+  }
+}

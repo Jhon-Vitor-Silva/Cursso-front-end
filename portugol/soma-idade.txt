@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    inteiro idade = 0, contador = 1, soma_idade=0
+    cadeia nome
+    real media
+
+    enquanto (contador <=3){
+      escreva("Informe seu nome: \n")
+      leia(nome)
+      escreva("Informe sua idade: \n")
+      leia(idade)
+      soma_idade += idade
+      contador++
+      }
+     
+      media = soma_idade / (contador-1)
+      escreva(media)
+  }
+}

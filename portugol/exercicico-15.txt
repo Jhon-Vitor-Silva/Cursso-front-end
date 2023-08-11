@@ -1,0 +1,15 @@
+programa {
+
+  const real pi =3.1415
+  funcao inicio() {
+    real raio, area
+
+    escreva("Me fale seu circulo: ")
+    leia(raio)
+
+    area = pi * (raio * raio)
+
+    escreva("A area do seu circulo é: ", area)
+    
+  }
+}

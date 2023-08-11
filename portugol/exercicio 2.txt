@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+  inteiro numero1 , numero2 , soma , mult , sub
+  real divisao
+// aqui eu recebo o primeiro numero
+  escreva("Digite o primeiro numero ")
+  leia(numero1)
+
+  escreva("Digite o primeiro numero ")
+  leia(numero2)
+
+  soma = numero1 + numero2
+  sub = numero1 - numero2
+  mult = numero1 * numero2
+  divisao = numero1 / numero2
+
+  escreva("n\ A soma é: ", soma )
+  escreva("n\ A subtração é: ", sub)
+  escreva("n\ A multiplicação é ", mult)
+  escreva("n\ A divisão é ", divisao)
+  }
+}

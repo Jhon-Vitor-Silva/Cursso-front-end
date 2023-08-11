@@ -1,0 +1,18 @@
+programa {
+  inclua biblioteca 
+
+
+  funcao inicio() {
+    inteiro numero1, numero2
+    real resultado = 0, resultado2
+
+    escreva("Infome um numero1: ")
+    leia(numero1)
+    escreva("Infome um numero2: ")
+    leia(numero2)
+    
+    resultado = numero1 / numero2
+
+    escreva(mat.arredondar(resultado, 2))
+  }
+}

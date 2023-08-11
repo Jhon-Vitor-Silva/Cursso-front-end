@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    inteiro numero4, numero5
+
+    escreva("Digite o numero 4: ")
+    leia(numero4)
+    escreva("Digite o numero 5: ")
+    leia(numero5)
+
+    numero4 = numero5
+    numero5 = numero4
+
+    escreva("o primeiro numero digitado foi: ", numero4 )
+    escreva("o segundo numero digitado foi: ", numero5 )
+
+  }
+}

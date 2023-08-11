@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    caracter sexo
+     escreva("Informe seu gênero: ")
+     leia(sexo)
+
+     se (sexo == "m"){
+      escreva("Seu gênero é o masculino")
+    }
+    senao se (sexo == "f"){
+      escreva("Seu gênero é o feminino")
+    }
+      senao{
+        escreva("Sexo inválido")
+   }
+    
+  }
+}

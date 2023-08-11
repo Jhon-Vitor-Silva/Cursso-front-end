@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    inteiro numero1 = 100, numero2 = 5
+    /* operadores atribuição
+    ++ ---> variavel = variavel + 1
+    --  variavel = variavel - 1 
+    += variavel = variavel + outro valor
+    -= varivel = variavel - outro_valor
+    *= variavel = variavel * outro_valor
+    /= variavel  = variavel / outro_valor
+    */
+    escreva(numero1 =numero1 / numero2)
+    numero1 = 100, numero2 = 5
+    escreva(numero1 / numero2)
+  }
+}

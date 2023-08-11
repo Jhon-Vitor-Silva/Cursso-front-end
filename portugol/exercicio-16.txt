@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    inteiro numer
+
+    escreva("Me diga seu número: ")
+    leia(numer)
+
+
+    se (numer > 10){
+    escreva("Este valo é maior que 10")
+    }
+    senao {
+      escreva("Este número não é maior que 10: ")
+      }
+
+    
+  }
+}

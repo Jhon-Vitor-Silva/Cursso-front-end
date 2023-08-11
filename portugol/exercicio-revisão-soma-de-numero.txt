@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    inteiro numero = 0, soma= 0
+
+    escreva("Informe seu numero: ")
+    leia(numero)
+
+    enquanto(numero <= 0){
+      escreva("Me fale seu numero: \n")
+      leia(numero)
+      soma = 
+
+    
+  }
+}

@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() 
+  { inteiro numero, contador
+
+  escreva("Digite um numero: ")
+  leia(numero)
+
+  para (contador = 0; contador <= 10 ; contador++){
+  escreva(contador, "x",numero, "=", contador * numero,"\n")
+  }
+    
+  }
+}

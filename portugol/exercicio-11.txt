@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    real custo, venda, acrescimo
+
+    escreva("Me fale seu valor de custo: ")
+    leia(custo)
+    escreva("Digite seu valor em porcentagem que sera adicionado ao valor final ")
+    leia(acrescimo)
+    venda = custo + ((custo / 100 * acrescimo)
+    escreva("Seu valor com rendimento seá: ", venda)
+    
+  }
+}

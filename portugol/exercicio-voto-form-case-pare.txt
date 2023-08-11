@@ -1,0 +1,31 @@
+programa {
+
+  // Crie um algoritmo que mostre as opções 01 para Barbie e 02 para Oppenheimer, e receba 10 votos, no final mostre quantos votos cada filme recebeu entre os 10.
+  funcao inicio() {
+    inteiro voto = 0, voto_Barbie = 0, voto_Oppen = 0
+
+
+    para (inteiro i = 1; i <= 10; i++){
+    escreva ("Escolha seu filme: \n")
+    escreva ("01 - Barbie \n")
+    escreva ("02 - Oppenheimer \n")
+    leia(voto)
+    limpa()
+    
+    escolha(voto)
+    {
+    caso 01:
+        voto_Barbie += 1
+    pare
+    caso 02:
+        voto_Oppen += 1
+    pare
+    caso contrario
+    escreva("Voto invalido")
+      }
+    }
+    escreva("Votos Barbie: ", voto_Barbie, "\n")
+    escreva("Votos Oppenheimer: ",voto_Oppen)
+
+  }
+}

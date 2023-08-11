@@ -1,0 +1,28 @@
+programa 
+{
+  funcao inicio() {
+    inteiro voto
+    escreva("13 - Lular \n")
+    escreva("22 - Bolsonaro \n")
+    escreva("99 - Branco \n")
+    leia(voto)
+
+    escolha(voto){
+      caso  13 :
+        escreva("faz o L! ")
+        pare
+
+        caso 22 : 
+        escreva("Faz arminha: ")
+        pare
+        caso 99 :
+         escreva("Sai do muro: ")
+        pare
+
+        caso contrario : 
+        escreva("Escolha o numero valido")
+
+
+  }
+  }
+}

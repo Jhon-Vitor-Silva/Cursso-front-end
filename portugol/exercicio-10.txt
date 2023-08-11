@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    real prodvalor, parcevalo
+
+    escreva("Me fale o valor do produto: ")
+    leia(prodvalor)
+
+    parcevalo = prodvalor / 5
+
+    escreva("Sua será de: ", parcevalo)
+    
+  }
+}

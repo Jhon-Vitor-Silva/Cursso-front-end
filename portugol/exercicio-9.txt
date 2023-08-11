@@ -1,0 +1,12 @@
+programa {
+  funcao inicio() {
+    real quantdep, valorrend
+    escreva("Me fale o valor depositado: ")
+    leia(quantdep)
+
+    valorrend = quantdep + (quantdep * 0.007)
+
+    escreva("Seu valor com rendimento será: ", valorrend)
+    
+  }
+}

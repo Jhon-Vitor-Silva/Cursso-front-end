@@ -1,0 +1,28 @@
+programa {
+  funcao inicio() {
+    inteiro nota1 , nota2
+    real media
+    escreva("Informe sua primeira nota: ")
+    leia(nota1)
+    escreva("Informe sua segunda nota: ")
+    leia(nota2)
+
+    media= (nota1 + nota2) / 2
+
+    se (media == 10){
+      escreva("Você está aprovado com Distinção")
+    }
+    senao se(media >= 7){
+      escreva("Você está aprovado")
+    }
+    senao se(media <=7){
+      escreva("Você etsá reprovado")
+    }
+    senao{
+      escreva("Você está reprovado")
+
+
+
+    
+  }
+}

@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+    cadeia nome 
+    real salario_fixo, salario_final, comissao, vendas
+
+    escreva("Me fale seu nome ")
+    leia(nome)
+
+    escreva("Me fale seu salario fixo ")
+    leia(salario_fixo)
+
+    escreva("Me fale suas vendas ")
+    leia(vendas)
+
+    comissao = vendas / 100 * 15
+
+    salario_final = comissao + salario_fixo
+
+    escreva("funcionarios :", nome "\n")
+    escreva("seu salario:", salario_fixo "\n")
+    escreva("Seus boletos ra ser pago com: ", salario_fixo)
+  }
+}

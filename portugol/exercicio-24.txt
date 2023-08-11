@@ -1,0 +1,30 @@
+programa {
+  funcao inicio() {
+    inteiro idade
+    cadeia nome 
+    caracter sexo
+    escreva("Digite seu nome: ")
+    leia(nome)
+    escreva("Digite sua idade: ")
+    leia(idade)
+    escreva("Por gentilize me fale seu gênero: ")
+    leia(sexo)
+
+
+    se (idade >=18){
+      se (sexo == 'f'){
+        escreva( nome "Para você o alistamento é obrigatorio e você se alistar")
+        escreva("Cidadão caso queira servir ")}
+
+        senao se (sexo == 'm'){
+          escreva("Cidadão apto para serviço militar: ")
+          escreva("Cidadão obrigado a servir!! ")
+          }
+          senao {
+            escreva("Sexo inválido")
+
+
+
+    
+  }
+}
