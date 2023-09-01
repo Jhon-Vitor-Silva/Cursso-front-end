@@ -57,3 +57,21 @@ Criando links
 
 
 ![html](foto-HTML.png)
+
+
+##Javascript
+
+Dom --> Document object Model
+
+Window --> ETC --> Document --> history
+Document --> Head --> Body
+Head --> Title --> Meta --> Link
+Body --> P --> H1
+
+acessa (div > div)
+pode capturar id pelo nome id , classe e teg
+query = consultar
+A # significa = id 
+O ponto siginifica 'class'
+Queryselector pega o primeiro item da lista
+QueryselectorAll pega todos os itens da lista
