@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 1s;
+    background-color: #0f90e6; 
+}
+
+#clock {
+    font-size: 48px;
+    color: white;
+}
+h1 {
+    color: white;
+}
+
+.morning {
+ background-image: url(../../../imagens/Kratos\,.jpg);
+}
+
+.afternoon {
+    background-image: url(../../../imagens/wallpapersden.com_asta-cool-art-black-clover_1920x1080.jpg);
+}
+
+.evening {
+   background-image: url(../../../imagens/venom-2020-4k-1w-1920x1080.jpg);
+}
+
+.night {
+    background-image: url(../../../imagens/desktop-wallpaper-thanatos-phone.jpg);
+    color: #fff;
+}

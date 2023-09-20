@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lista</h1>
+    <div class="container">
+        <div class="list" id="list1">
+            <h2>Lista 1</h2>
+            <ul id="ul1">
+                <li onclick="toggleItem(this)">HTML</li>
+                <li onclick="toggleItem(this)">Portugol</li>
+                <li onclick="toggleItem(this)">Javascript</li>
+                <li onclick="toggleItem(this)">CSS</li>
+                <li onclick="toggleItem(this)">GIT</li>
+            </ul>
+            <button onclick="transferItems('ul1', 'ul2')">Mover para Lista 2</button>
+        </div>
+        <div class="list" id="list2">
+            <h2>Lista 2</h2>
+            <ul id="ul2">
+            
+            </ul>
+            <button onclick="transferItems('ul2', 'ul1')">Mover para Lista 1</button>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
