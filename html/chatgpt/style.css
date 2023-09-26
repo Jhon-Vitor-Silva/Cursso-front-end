@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif
+}
+ 
+ .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #5f5b5b;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px; /
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+.carousel-inner, .carousel-item{
+    height: 600px;
+}
+
+#carouselExample {
+    width: 800px;
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--midia);
+}
+.container{
+    display: flex;
+    gap:1em;
+}
+.card{
+    width: 13em;
+    height: 22em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    overflow: hidden;
+    border-radius: 0.3em;
+    background-color: var(--midia);
+    box-shadow: 1px 1px 5px 1px var(--xereca);
+    display:flex;
+}
+.card:hover button{
+    margin-top: 0;
+}
+h2 {
+    font-size: 14px;
+}
+.imagem{
+    max-height: 8em;
+    width: 8em;
+    margin-bottom: 0.8 0;
+}
+.descricao {
+    text-indent: 1.5em;
+    font-size: 11px;
+    text-align: justify;
+    margin-bottom: 0.8em;
+}
+.preco{
+    font-size: 25px;
+}
+button{
+    background-color: var(--comprar);
+    border: none;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    color:var(--xereca);
+    margin-top: 10em;
+    transition: 0.5s;
+    cursor: pointer;
+}
