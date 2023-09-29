@@ -1,0 +1,7 @@
+#bnt-2{
+max-width: 15em;
+background-color: var(--orange);
+padding: 2em;
+border: none;
+border-radius: 10px;
+}
